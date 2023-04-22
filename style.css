@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #f7dcc4;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-text {
+  font-size: 50px;
+  height: 20%;
+  padding: 40px;
+  display: flex;
+  color:aliceblue
+}
+
+header {
+    display: flex;
+    background-color: #2d351a;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.links {
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.tabs {
+    color: yellow;
+}
