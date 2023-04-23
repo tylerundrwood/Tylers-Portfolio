@@ -11,7 +11,7 @@
 body {
   background-color: #f7dcc4;
   font-family: Arial, Helvetica, sans-serif;
-
+  flex-wrap: wrap;
 }
 
 .header-text {
@@ -36,15 +36,71 @@ header {
     font-size: 28px;
 }
 
+button:hover{
+    background-color: #772014;
+    border: solid;
+}
+
 .tabs {
     color: yellow;
     margin: auto 10px;
 }
-.portfolio {
-    border: solid;
-    display: flex;
-    margin:auto 650px;
-    font-size: 50px;
 
+
+.portfolio {
+    display: flex;
+    margin:auto 880px;
+    font-size: 50px;
+    color: blue;
+}
+
+ .About-me {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 300px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-left: 700px;
+    border: solid;    
+}
+
+.Projects{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 300px;
+}
+
+.topics {
+display: flex;
+margin-left: 20px;
+padding-left: 30px;
+color: black;
 
 }
+
+.Contact-info{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 300px;
+}
+
+.heads {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 40px;
+    padding: 90px;
+    padding-left: 80px;
+    background: yellowgreen;
+    border: solid;
+}
+
+
