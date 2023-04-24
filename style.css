@@ -10,8 +10,7 @@
 
 body {
   background-color: #f7dcc4;
-  font-family: 'Times New Roman', Times, serif
-  flex-wrap: wrap;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .header-text {
@@ -19,100 +18,113 @@ body {
   height: 20%;
   padding: 40px;
   display: flex;
-  color:aliceblue
+  color: aliceblue;
 }
 
 header {
-    display: flex;
-    background-color: #2d351a;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    
+  display: flex;
+  background-color: #2d351a;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 .links {
-    margin-right: 40px;
-    font-size: 28px;
+  margin-right: 40px;
+  font-size: 28px;
 }
 
-button:hover{
-    background-color: #772014;
-    border: solid;
+button:hover {
+  background-color: #772014;
+  border: solid;
 }
 
 .tabs {
-    color: yellow;
-    margin: auto 10px;
+  color: yellow;
+  margin: auto 10px;
+  content: 'Pseudo Elements';
 }
-
 
 .portfolio {
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-
-}
-
-/* p {
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-    margin-left: 700px;
-    border: solid;    
-} */
-
-.Projects{
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    padding-right: 300px;
-}
-
-.topics {
-display: flex;
-margin-left: 20px;
-padding-left: 30px;
-color: black;
-
-}
-
-.Contact-info{
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    padding-right: 300px;
-}
-
-.heads {
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 40px;
-    padding: 90px;
-    padding-left: 80px;
-}
-
-.areas {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: auto 150px;
-    background: yellowgreen;
-    border: 2px solid black;
-}
-
-.about-me-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
 }
 
 .profile-picture {
-    width: 30%;
-    height: 100%;
-    border-radius: 50%;
-    margin: 10px auto;
+  width: 28%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: solid;
+}
+
+.Projects {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  padding-right: 300px;
+}
+
+.topics {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+.Contact-info {
+  display: flex;
+  margin-left: 50px;
+  padding-right: 300px;
+}
+
+.heads {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 40px;
+  padding: 90px;
+  padding-left: 80px;
+}
+
+.areas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 25px 150px;
+  background: yellowgreen;
+  border: 2px solid black;
+}
+
+.about-me-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+}
+
+.work-img-1 {
+  width: 100%;
+  height: 20vh;
+
+  ahover {
+position: relative;
+
+}
+}
+.info {
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+footer {
+  padding: 30px;
 }
