@@ -119,7 +119,7 @@ button:hover {
   font-size: 20px;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-left: 150px;
 }
 
@@ -142,20 +142,21 @@ footer {
   padding: 30px;
 }
 
-@media screen and (min-width 400px) {
-    .projects: {
+@media screen and (min-width: 400px) {
+    .projects {
       flex-basis: 100%;
       width: 50%;
      }
 }
 
 @media screen and (max-width: 700px) {
-    .about-me-info, .areas, .links, .Projects, .info, .tabs {
+    .about-me-info, .Projects, .areas {
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        font-size: 20%;
     }
 }
 
@@ -166,5 +167,36 @@ footer {
         justify-content: center;
         flex-direction: column;
         margin: auto 1px;
+        
+    }
+}
+@media screen and (max-width: 700px) {
+    .heads {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 1px;
+    font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px){
+    .tabs{
+        float: left;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: auto; 
+    }
+}
+@media screen and (max-width: 700px) {
+    .info, .topics {
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 1px;
+    font-size: 18%;
     }
 }
