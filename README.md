@@ -15,9 +15,8 @@ N/A
 
 ## Usage
 
-```md
-(/Tylers-Portfolio/images/Screenshot 2023-04-26 at 4.20.36 PM.png)
-```
+![Screenshot of homepage of Portfolio](./images/Screenshot%202023-04-26%20at%204.20.36%20PM.png)
+
 ## Credits
 
 - https://www.w3schools.com/html/html5_semantic_elements.asp
