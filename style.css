@@ -11,6 +11,7 @@
 body {
   background-color: #ab977d;
   font-family: "Times New Roman", Times, serif;
+  width: 100%;
 }
 
 .header-text {
@@ -199,4 +200,10 @@ footer {
     margin: auto 1px;
     font-size: 18%;
     }
+}
+@media  screen and (max-width: 391px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 }
